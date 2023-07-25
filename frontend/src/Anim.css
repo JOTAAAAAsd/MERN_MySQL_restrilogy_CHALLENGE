@@ -1,0 +1,102 @@
+.fadeIn {
+    animation-name: fadeIn;
+    animation-duration: 1.2s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+}
+
+@keyframes fadeIn {
+
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+.spinner1 {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    border: 10px solid;
+    box-sizing: border-box;
+    animation: spinner1 1s linear infinite alternate;
+}
+
+@keyframes spinner1 {
+    0% {
+        border-color: rgb(83, 211, 19) rgba(255, 255, 255, 0) rgba(255, 255, 255, 0) rgba(255, 255, 255, 0);
+    }
+
+    33% {
+        border-color: rgb(83, 211, 19) rgb(83, 211, 19) rgba(255, 255, 255, 0) rgba(255, 255, 255, 0);
+    }
+
+    66% {
+        border-color: rgb(83, 211, 19) rgb(83, 211, 19) rgb(83, 211, 19) rgba(255, 255, 255, 0);
+    }
+
+    100% {
+        border-color: rgb(83, 211, 19) rgb(83, 211, 19) rgb(83, 211, 19) rgb(83, 211, 19);
+    }
+}
+
+
+.spinner2 {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: block;
+    margin: 15px auto;
+    position: relative;
+    color: #FFF;
+    left: -100px;
+    box-sizing: border-box;
+    animation: spinner2 2s linear infinite;
+}
+
+@keyframes spinner2 {
+    0% {
+        box-shadow: 0px 0 rgba(255, 255, 255, 0), 0px 0 rgba(255, 255, 255, 0), 0px 0 rgba(255, 255, 255, 0), 0px 0 rgba(255, 255, 255, 0);
+    }
+
+    12% {
+        box-shadow: 100px 0 rgb(83, 211, 19), 0px 0 rgba(255, 255, 255, 0), 0px 0 rgba(255, 255, 255, 0), 0px 0 rgba(255, 255, 255, 0);
+    }
+
+    25% {
+        box-shadow: 110px 0 rgb(83, 211, 19), 100px 0 rgb(83, 211, 19), 0px 0 rgba(255, 255, 255, 0), 0px 0 rgba(255, 255, 255, 0);
+    }
+
+    36% {
+        box-shadow: 120px 0 rgb(83, 211, 19), 110px 0 rgb(83, 211, 19), 100px 0 rgb(83, 211, 19), 0px 0 rgba(255, 255, 255, 0);
+    }
+
+    50% {
+        box-shadow: 130px 0 rgb(83, 211, 19), 120px 0 rgb(83, 211, 19), 110px 0 rgb(83, 211, 19), 100px 0 rgb(83, 211, 19);
+    }
+
+    62% {
+        box-shadow: 200px 0 rgba(255, 255, 255, 0), 130px 0 rgb(83, 211, 19), 120px 0 rgb(83, 211, 19), 110px 0 rgb(83, 211, 19);
+    }
+
+    75% {
+        box-shadow: 200px 0 rgba(255, 255, 255, 0), 200px 0 rgba(255, 255, 255, 0), 130px 0 white, 120px 0 white;
+    }
+
+    87% {
+        box-shadow: 200px 0 rgba(255, 255, 255, 0), 200px 0 rgba(255, 255, 255, 0), 200px 0 rgba(255, 255, 255, 0), 130px 0 white;
+    }
+
+    100% {
+        box-shadow: 200px 0 rgba(255, 255, 255, 0), 200px 0 rgba(255, 255, 255, 0), 200px 0 rgba(255, 255, 255, 0), 200px 0 rgba(255, 255, 255, 0);
+    }
+}

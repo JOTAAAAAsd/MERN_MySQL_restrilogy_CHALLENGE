@@ -1,0 +1,440 @@
+body {
+    background-color: rgb(36, 33, 34) !important;
+    background-image: url("http://adegaregional.com/assets/conference/cover.jpg");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    z-index: 1;
+}
+
+body::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(3, 8, 15, 0.80);
+    z-index: -1;
+}
+
+.header_navbar_custom {
+    background: rgb(29, 51, 81);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 1% !important;
+}
+
+.header_navbar_custom .container .navbar-brand {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.5em;
+    text-transform: uppercase;
+    border: 1px solid black;
+    padding: 1%;
+    background-color: rgba(0, 0, 0, 0.30);
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+
+.auth_card_container {
+    border: 3px solid rgb(70, 49, 49) !important;
+    background-image: url("https://cdn.pixabay.com/photo/2020/11/02/12/59/table-5706576_1280.jpg");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    width: 100%;
+    min-height: 60vh;
+    position: relative;
+    z-index: 1;
+    border-radius: 0px !important;
+    -webkit-box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+.auth_card_container::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(3, 8, 15, 0.95);
+    z-index: -1;
+}
+
+.auth_card_content_form {
+    width: 70% !important;
+    margin: 0 auto;
+    padding-top: 10%;
+}
+
+.auth_card_form_label {
+    color: rgb(228, 207, 170);
+}
+
+.auth_card_form_input {
+    background-color: rgba(228, 207, 170, 0.70) !important;
+    -webkit-box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+.auth_card_form_input:focus {
+    color: black;
+    background-color: rgba(228, 207, 170, 0.70) !important;
+    border-color: #ffffff !important;
+    outline: 0;
+    -webkit-box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.75) !important;
+}
+
+.auth_card_form_btn_submit {
+    margin-right: 1%;
+    color: #c0c0c0 !important;
+    background-color: rgb(155, 46, 46) !important;
+    border: 1px solid rgb(90, 24, 24) !important;
+    border-radius: 0 !important;
+    -webkit-box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+.auth_card_form_btn_submit:hover {
+    background-color: rgb(115, 33, 33) !important;
+    border: 1px solid rgb(48, 12, 12) !important;
+}
+
+
+.auth_card_form_btn_register {
+    margin-right: 1%;
+    color: #242424 !important;
+    background-color: rgb(229, 229, 229) !important;
+    border: 1px solid rgb(83, 83, 83) !important;
+    border-radius: 0 !important;
+    -webkit-box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+.auth_card_form_btn_register:hover {
+    background-color: rgb(184, 184, 184) !important;
+    border: 1px solid rgb(48, 48, 48) !important;
+}
+
+.table_list_container.table {
+    border: 2px solid;
+    border-color: rgb(70, 49, 49) !important;
+}
+
+.table_list_tr th {
+    background-color: rgb(228, 207, 170) !important;
+}
+
+.table_list_tr td {
+    background-color: rgb(255, 243, 222) !important;
+    -webkit-box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.30);
+    -moz-box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.30);
+    box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.30) !important;
+}
+
+.table_list_tr td:hover {
+    background-color: rgb(184, 177, 165) !important;
+    cursor: grab;
+}
+
+.table_list_td_btn {
+    color: #c0c0c0 !important;
+    background-color: rgb(155, 133, 46) !important;
+    border: 1px solid rgb(101, 87, 29) !important;
+    border-radius: 0 !important;
+    -webkit-box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+.table_list_td_btn:hover {
+    background-color: rgb(113, 97, 31) !important;
+    border: 1px solid rgb(59, 51, 16) !important;
+}
+
+
+.table_list_card_search_form {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    background: rgba(3, 8, 15, 0.70) !important;
+    border: 1px solid rgba(255, 255, 255, 0.70) !important;
+    border-radius: 0 !important;
+    padding: 5%;
+}
+
+.table_list_card_search_form_input {
+    margin-right: 1%;
+    color: #242424 !important;
+    background-color: rgb(229, 229, 229) !important;
+    border: 1px solid rgb(83, 83, 83) !important;
+    border-radius: 0 !important;
+    -webkit-box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+.table_list_card_search_form_input:focus {
+    color: black;
+    background-color: rgb(229, 229, 229) !important;
+    border-color: rgb(83, 83, 83) !important;
+    outline: 0;
+    -webkit-box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.75) !important;
+}
+
+.table_list_card_search_form_input_icon {
+    background-color: rgb(69, 141, 96) !important;
+    border: 1px solid black !important;
+    border-radius: 0 !important;
+    -webkit-box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.75) !important;
+}
+
+.table_list_card_search_form_input_icon svg {
+    transform: scale(1.5);
+    color: rgb(3, 8, 15);
+}
+
+.ui_alerts {
+    background-color: rgb(139, 105, 105) !important;
+    text-align: center;
+    font-size: 1.5em;
+    border: 1px solid rgb(196, 174, 174) !important;
+    -webkit-box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.75) !important;
+}
+
+.form_reservation_card_container {
+    background-color: rgba(10, 0, 44, 0.70) !important;
+    min-height: 50vh;
+}
+
+.form_reservation_card_btn_history {
+    background-color: rgb(11, 34, 47);
+    text-align: right;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.form_reservation_card_btn_history button {
+    border-top-right-radius: 15px !important;
+    background-color: rgb(0, 179, 255);
+    border-radius: 0;
+    border: 1px solid black;
+    color: rgb(11, 34, 47);
+}
+
+.form_reservation_card_btn_history button svg {
+    transform: scale(1.5);
+}
+
+.form_reservation_card_btn_history button:hover {
+    background-color: rgb(0, 104, 149);
+    color: rgb(138, 206, 245);
+}
+
+.form_reservation_card_btn_history button:active {
+    background-color: rgb(0, 104, 149) !important;
+    color: rgb(138, 206, 245) !important;
+    border: 1px solid black !important;
+}
+
+
+.form_reservation_container {
+    border: 1px solid white;
+    color: #242424 !important;
+    background-color: rgb(229, 229, 229) !important;
+    border: 1px solid rgb(83, 83, 83) !important;
+    border-radius: 0 !important;
+    -webkit-box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    padding: 2%;
+    min-height: 50vh;
+}
+
+.form_reservation_title_head {
+    background-color: white;
+    color: rgb(56, 44, 86);
+    letter-spacing: 3px;
+    text-align: center;
+    width: 20%;
+    padding: 1%;
+    border-radius: 50px;
+    position: relative;
+    top: -40px;
+}
+
+.form_reservation_btn_submit {
+    text-align: center;
+}
+
+.form_reservation_btn_submit button {
+    color: rgb(238, 238, 238);
+    font-size: 1.1em;
+    border-radius: 0;
+    width: 25%;
+    background-color: rgb(54, 170, 46);
+    border: 1px solid rgb(37, 120, 31);
+    -webkit-box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+.form_reservation_btn_submit button svg {
+    transform: scale(1.5);
+}
+
+.form_reservation_btn_submit button:hover {
+    border-radius: 0;
+    width: 25%;
+    background-color: rgb(40, 135, 33);
+    border: 1px solid rgb(24, 84, 20);
+}
+
+.form_reservation_btn_submit button:active {
+    border-radius: 0;
+    width: 25%;
+    background-color: rgb(40, 135, 33) !important;
+    border: 1px solid rgb(24, 84, 20);
+}
+
+.icon_input_group {
+    background-color: rgb(30, 30, 30) !important;
+    border-radius: 0 !important;
+    border: 1px solid transparent !important;
+}
+
+.icon_input_group svg {
+    transform: scale(1.2);
+    color: rgb(193, 193, 193) !important;
+}
+
+.entry_input_group_disabled {
+    background-color: rgb(255, 200, 0) !important;
+    filter: grayscale(.7) !important;
+    color: white !important;
+    font-weight: bold !important;
+    pointer-events: none !important;
+}
+
+
+.entry_input_group {
+    border: 1px solid transparent !important;
+    border-radius: 0 !important;
+    background-color: rgb(236, 236, 236);
+    -webkit-box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+.entry_input_group:focus {
+    border: 1px solid transparent !important;
+    border-radius: 0 !important;
+    background-color: rgb(236, 236, 236) !important;
+    -webkit-box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.75) !important;
+}
+
+.icon_input_group_open_calendar {
+    background-color: rgb(255, 253, 113) !important;
+    border: 1px solid rgb(165, 164, 77) !important;
+    border-radius: 0 !important;
+    color: rgb(108, 107, 48);
+}
+
+.icon_input_group_open_calendar svg {
+    transform: scale(1.5);
+}
+
+.icon_input_group_open_calendar:hover {
+    cursor: pointer;
+    background-color: rgb(108, 107, 48) !important;
+    border: 1px solid rgb(255, 253, 113) !important;
+    border-radius: 0 !important;
+    color: rgb(255, 253, 113);
+}
+
+.react-calendar {
+    border: 1px solid black !important;
+    padding: 2%;
+}
+
+.react-calendar__navigation__label {
+    background-color: rgb(23, 25, 62) !important;
+    pointer-events: none;
+    color: white;
+    letter-spacing: 2px;
+    border-radius: 20px;
+}
+
+.modal-content {
+    background-color: transparent !important;
+    border: 1px solid transparent !important;
+}
+
+.react-calendar {
+    margin: 0 auto;
+}
+
+.modal-body {
+    margin-top: 5%;
+    margin: 0 auto;
+    min-height: 80vh;
+    min-width: 100%;
+    background-color: rgb(23, 25, 62);
+    border: 1px solid white;
+}
+
+.calendar_form_container {
+    margin: 10% auto;
+}
+
+.form_booking_container .calendar_form_container .react-calendar {
+    background-color: rgb(204, 204, 204);
+    margin: 0 auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: #000000;
+    padding: 2%;
+}
+
+.react-calendar__tile--active {
+    background-color: rgb(0, 89, 255) !important;
+    border: 1px solid black !important;
+}
+
+.react-calendar__tile:disabled {
+    background-color: #dedede !important;
+    color: rgb(165, 165, 165) !important;
+    cursor: no-drop !important;
+}
+
+.form_booking_container .calendar_form_container .react-calendar .react-calendar__navigation .react-calendar__navigation__label {
+    pointer-events: none;
+}
+
+.history_reservations_container {
+    background-color: rgb(235, 235, 235);
+    -webkit-box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.75) !important;
+    height: 70vh;
+    padding: 2%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
